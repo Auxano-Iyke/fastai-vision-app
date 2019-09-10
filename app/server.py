@@ -7,7 +7,7 @@ from io import BytesIO
 from fastai.vision import *
 import base64
 
-model_file_url = ''https://www.googleapis.com/drive/v3/files/1RzUOojU_Lc-BeFHPJiEaiKB7BdrJf-WN?alt=media&key=AIzaSyBt4CGECZtVUZMHj3Eb4Cp_RGYwd7_qgxw'
+model_file_url = 'https://www.googleapis.com/drive/v3/files/1RzUOojU_Lc-BeFHPJiEaiKB7BdrJf-WN?alt=media&key=AIzaSyBt4CGECZtVUZMHj3Eb4Cp_RGYwd7_qgxw'
 model_file_name = 'fastai_resnet.pkl'
 classes = ['AM General Hummer SUV 2000',
  'Acura Integra Type R 2001',
